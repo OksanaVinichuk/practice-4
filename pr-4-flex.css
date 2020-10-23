@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.menu1,
+.menu2 {
+    font-size: 11px;
+    display: flex;
+    direction: row;
+    justify-content: center;
+    font-weight: bolder;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin: 5px;
+    font-size: 11px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+a:hover {
+    color: silver;
+}
+
+.menu2 {
+    font-size: 12px;
+}
+
+.menu1>a {
+    display: flex;
+    justify-content: space-between;
+}
+
+span {
+    display: block;
+    margin: 10px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+main {
+
+    background-color: #7E0019;
+    font-size: 11px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.left,
+.right {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.left,
+.right>div {
+    margin: 10px;
+}
+
+.centr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px;
+}
+
+.btn {
+    border: 3px solid white;
+    border-radius: 30%;
+    background-color: #B30C1D;
+    padding: 0px 10px;
+}
